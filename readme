@@ -1,0 +1,41 @@
+Async Weather Tracker
+
+Simple weather app using API and async JavaScript.
+
+Takes a city name → fetches real-time data → shows temperature, weather, humidity, and wind speed.
+
+Also stores search history for quick access.
+
+⚙️ Features
+City-based weather search
+Real-time API data
+Temperature, humidity, wind speed
+Search history (click to reuse)
+🛠️ Tech Used
+HTML
+CSS
+JavaScript
+Fetch API
+Async / Await
+🚀 How it works
+Enter city name
+Click submit
+Data is fetched from API
+UI updates instantly
+Search gets stored below
+🔑 Setup
+Get API key from OpenWeather
+Replace API key in JS file:
+appid=YOUR_API_KEY
+Run the project
+⚠️ Note
+
+Basic project.
+No frameworks.
+Focused on understanding async flow and API handling.
+
+📌 Future Improvements
+Error handling (city not found)
+Loading indicator
+Better UI
+Save history with localStorage
