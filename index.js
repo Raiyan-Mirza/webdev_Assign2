@@ -18,5 +18,5 @@ async function getWeather() {
   document.getElementById("humidity").textContent = "Humidity: " + data.main.humidity + "%";
   document.getElementById("windspeed").textContent = "Wind: " + data.wind.speed + " m/s";
 }
-const historyBox = document.getElementById("history");
+
 
