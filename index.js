@@ -20,15 +20,3 @@ async function getWeather() {
 }
 const historyBox = document.getElementById("history");
 
-function addToHistory(city) {
-  const item = document.createElement("div");
-  item.textContent = city;
-  item.classList.add("history-item");
-
-  item.addEventListener("click", () => {
-    document.getElementById("text").value = city;
-    getWeather();
-  });
-
-  historyBox.appendChild(item);
-}
